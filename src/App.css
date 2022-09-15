@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  color: #555;
+}
+h4 {
+  font-size: 0.98rem;
+  line-height: 1.1;
+  color: rgba(112, 112, 113, 0.699);
+}
+p {
+  font-size: 0.8rem;
+  color: rgba(145, 145, 145, 0.97);
+}
+p span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+button {
+  padding: 8px 15px;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  background: royalblue;
+}
+button:active {
+  transform: scale(1.1);
+}
+
+.card {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #faaca8;
+  text-align: center;
+  border-radius: 5px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
